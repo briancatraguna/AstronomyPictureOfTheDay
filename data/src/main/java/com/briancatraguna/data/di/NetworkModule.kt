@@ -1,5 +1,6 @@
 package com.briancatraguna.data.di
 
+import com.briancatraguna.data.AstroPictureRemoteDataSource
 import com.briancatraguna.data.BuildConfig
 import com.briancatraguna.data.retrofit.AstroPictureService
 import dagger.Module
@@ -26,5 +27,10 @@ class NetworkModule {
             .client(client)
             .build()
         return retrofit.create(AstroPictureService::class.java)
+    }
+
+    @Provides
+    fun providesAstroPictureRemoteDataSource(astroPictureService: AstroPictureService): AstroPictureRemoteDataSource {
+        return AstroPictureRemoteDataSource(astroPictureService)
     }
 }
