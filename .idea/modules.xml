@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AstronomyPictureOfTheDay.iml" filepath="$PROJECT_DIR$/.idea/modules/AstronomyPictureOfTheDay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Astronomy_Picture_Of_The_Day.iml" filepath="$PROJECT_DIR$/.idea/modules/Astronomy_Picture_Of_The_Day.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Astronomy_Picture_Of_The_Day.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Astronomy_Picture_Of_The_Day.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/Astronomy_Picture_Of_The_Day.data.iml" filepath="$PROJECT_DIR$/.idea/modules/data/Astronomy_Picture_Of_The_Day.data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/Astronomy_Picture_Of_The_Day.domain.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/Astronomy_Picture_Of_The_Day.domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/feature/Astronomy_Picture_Of_The_Day.feature.iml" filepath="$PROJECT_DIR$/.idea/modules/feature/Astronomy_Picture_Of_The_Day.feature.iml" />
     </modules>
   </component>
 </project>
