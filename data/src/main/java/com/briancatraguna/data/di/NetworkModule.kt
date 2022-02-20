@@ -1,31 +1,21 @@
 package com.briancatraguna.data.di
 
 import com.briancatraguna.data.AstroPictureRemoteDataSource
-import com.briancatraguna.data.BuildConfig
 import com.briancatraguna.data.retrofit.AstroPictureService
 import dagger.Module
 import dagger.Provides
-import okhttp3.OkHttpClient
-import okhttp3.logging.HttpLoggingInterceptor
+import dagger.hilt.InstallIn
+import dagger.hilt.components.SingletonComponent
 import retrofit2.Retrofit
-import retrofit2.converter.gson.GsonConverterFactory
 
+@InstallIn(SingletonComponent::class)
 @Module
 class NetworkModule {
 
     @Provides
-    fun providesAstroPictureService(): AstroPictureService {
-        val baseUrl = BuildConfig.NASA_BASE_URL
-        val loggingInterceptor =
-            HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY)
-        val client = OkHttpClient.Builder()
-            .addInterceptor(loggingInterceptor)
-            .build()
-        val retrofit = Retrofit.Builder()
-            .baseUrl(baseUrl)
-            .addConverterFactory(GsonConverterFactory.create())
-            .client(client)
-            .build()
+    fun providesAstroPictureService(
+        @RestClient retrofit: Retrofit
+    ): AstroPictureService {
         return retrofit.create(AstroPictureService::class.java)
     }
 

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.dagger:dagger-spi:2.37">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger-spi/2.37/c9168d4f6252d98479cd8c62c5dcabe216f412a7/dagger-spi-2.37.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger-spi/2.37/6c46d59f27cd6dca8b9598bd431a7d10a0c3bcf6/dagger-spi-2.37-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger-spi/2.37/1fc0887d1e20642144800bb456f7911eea282fe2/dagger-spi-2.37-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
