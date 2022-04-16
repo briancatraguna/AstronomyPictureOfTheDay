@@ -7,6 +7,7 @@ import com.briancatraguna.data.room.AstroPictureDatabase
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
+import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
 
 @InstallIn(SingletonComponent::class)
@@ -14,7 +15,7 @@ import dagger.hilt.components.SingletonComponent
 class DatabaseModule {
 
     @Provides
-    fun provideDatabase(context: Context): AstroPictureDatabase =
+    fun provideDatabase(@ApplicationContext context: Context): AstroPictureDatabase =
         Room.databaseBuilder(
             context,
             AstroPictureDatabase::class.java,
