@@ -15,10 +15,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         val binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        viewModel.astroPicture.observe(this){
-            if (it != null) {
-                binding.test.text = it.explanation
-            }
+        binding.apply {
+            vm = viewModel
+            lifecycleOwner = this@MainActivity
         }
+
     }
 }
