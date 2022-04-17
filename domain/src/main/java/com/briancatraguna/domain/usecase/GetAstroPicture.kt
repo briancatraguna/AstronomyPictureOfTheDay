@@ -2,6 +2,7 @@ package com.briancatraguna.domain.usecase
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Transformations
+import androidx.lifecycle.asLiveData
 import com.briancatraguna.data.entities.AstroPictureResponse
 import com.briancatraguna.data.repository.AstroPictureRepository
 import com.briancatraguna.domain.model.AstroPicture
@@ -12,8 +13,8 @@ class GetAstroPicture @Inject constructor(
 ): IGetAstroPicture {
 
     override suspend fun doWork(): LiveData<AstroPicture> {
-        return Transformations.map(astroPictureRepository.astroPicture) {
-            it.asDomainModel()
+        return Transformations.map(astroPictureRepository.getAstroPicture().asLiveData()){
+            it?.asDomainModel()
         }
     }
 

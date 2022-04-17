@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         viewModel.astroPicture.observe(this){
             if (it != null) {
-                binding.test.text = it.copyright
+                binding.test.text = it.explanation
             }
         }
     }

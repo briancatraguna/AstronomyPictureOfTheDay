@@ -8,7 +8,7 @@ class AstroPictureLocalDataSource @Inject constructor(
     private val astroPictureDao: AstroPictureDao
 ) {
 
-    fun getLastAstroPicture() = astroPictureDao.getLastAstroPicture()
+    suspend fun getLastAstroPicture() = astroPictureDao.getLastAstroPicture()
 
     suspend fun insertAstroPicture(
         astroPicture: AstroPictureResponse
