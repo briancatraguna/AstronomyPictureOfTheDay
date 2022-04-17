@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
-import android.widget.Toast
 import androidx.activity.viewModels
 import com.briancatraguna.feature.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
