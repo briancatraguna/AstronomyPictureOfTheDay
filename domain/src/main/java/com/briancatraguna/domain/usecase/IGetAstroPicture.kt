@@ -1,10 +1,10 @@
 package com.briancatraguna.domain.usecase
 
-import androidx.lifecycle.LiveData
 import com.briancatraguna.domain.model.AstroPicture
+import kotlinx.coroutines.flow.Flow
 
 interface IGetAstroPicture {
 
-    suspend fun doWork(): LiveData<AstroPicture>
+    suspend fun doWork(): Flow<AstroPicture?>
 
 }

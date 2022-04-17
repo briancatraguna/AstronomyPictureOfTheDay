@@ -1,21 +1,18 @@
 package com.briancatraguna.domain.usecase
 
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.Transformations
-import androidx.lifecycle.asLiveData
 import com.briancatraguna.data.entities.AstroPictureResponse
 import com.briancatraguna.data.repository.AstroPictureRepository
 import com.briancatraguna.domain.model.AstroPicture
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.map
 import javax.inject.Inject
 
 class GetAstroPicture @Inject constructor(
     private val astroPictureRepository: AstroPictureRepository
 ): IGetAstroPicture {
 
-    override suspend fun doWork(): LiveData<AstroPicture> {
-        return Transformations.map(astroPictureRepository.getAstroPicture().asLiveData()){
-            it?.asDomainModel()
-        }
+    override suspend fun doWork(): Flow<AstroPicture?> {
+        return astroPictureRepository.getAstroPicture().map { it?.asDomainModel() }
     }
 
 }

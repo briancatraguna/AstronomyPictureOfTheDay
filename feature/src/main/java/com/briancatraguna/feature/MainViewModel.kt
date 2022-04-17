@@ -17,7 +17,7 @@ class MainViewModel @Inject constructor(
 
     init {
         viewModelScope.launch {
-            getAstroPicture.doWork().asFlow().collect {
+            getAstroPicture.doWork().collect {
                 _astroPicture.value = it
             }
         }
