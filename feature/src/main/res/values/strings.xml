@@ -1,0 +1,6 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Astronomy Picture Of The Day</string>
+    <string name="share">Share</string>
+    <string name="share_subject">Astronomy Picture of The Day!</string>
+    <string name="share_text">I\'ve found a really cool picture from NASA!\nYou can look it up in this link: %s</string>
+</resources>
