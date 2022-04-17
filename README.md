@@ -1,7 +1,7 @@
 # Astronomy Picture of The Day
 
 This is a practice app to implement clean architecture approach and caching data inside local database. This app uses Model - View - View Model or in short MVVM architecture.
-I also try to separate the layers by module by separating them into data, domain and feature.
+I also try to separate the layers by module (data, domain, feature).
 
 APK Link: https://drive.google.com/drive/folders/1Im-ElCAsVd5Ypbme-WFach1WWfSoEgp1
 
