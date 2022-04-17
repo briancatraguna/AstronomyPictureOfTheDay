@@ -3,6 +3,8 @@
 This is a practice app to implement clean architecture approach and caching data inside local database. This app uses Model - View - View Model or in short MVVM architecture.
 I also try to separate the layers by module by separating them into data, domain and feature.
 
+APK Link: https://drive.google.com/drive/folders/1Im-ElCAsVd5Ypbme-WFach1WWfSoEgp1
+
 <img src="https://user-images.githubusercontent.com/32363208/163707322-7a300900-8ed7-4b0d-b09d-2727416dfeb3.png" width=800/>
 
 Tech stacks:
