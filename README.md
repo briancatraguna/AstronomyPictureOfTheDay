@@ -8,11 +8,13 @@ APK Link: https://drive.google.com/drive/folders/1Im-ElCAsVd5Ypbme-WFach1WWfSoEg
 <img src="https://user-images.githubusercontent.com/32363208/163707322-7a300900-8ed7-4b0d-b09d-2727416dfeb3.png" width=800/>
 
 Tech stacks:
-- Dagger Hilt
-- Coroutines Flow
-- Retrofit
-- Room
-- ViewModel
+- [Dagger Hilt](https://dagger.dev/hilt/)
+- [Coroutines Flow](https://developer.android.com/kotlin/flow)
+- [Retrofit](https://square.github.io/retrofit/)
+- [Room](https://developer.android.com/jetpack/androidx/releases/room?gclid=CjwKCAjw9e6SBhB2EiwA5myr9pZNVzZTPdatv1KbEl9wkqbTSoT6QFzSLrvHT_F5udnkcbbxD8kygxoCuT4QAvD_BwE&gclsrc=aw.ds)
+- [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel)
+- [Sandwich](https://github.com/skydoves/sandwich)
+- [Coil](https://github.com/coil-kt/coil)
 
 # Features
 
