@@ -32,3 +32,7 @@ When user has fetched the data, it is cached in the local database so when user 
 Click the share button in the toolbar to share with your friends!
 
 <img src="https://user-images.githubusercontent.com/32363208/163707599-4e87bc64-72a2-46fb-a323-cc6f796dd1ca.jpg" width=400/>
+
+## Modern Android Development (MAD) Scorecard
+
+![summary](https://user-images.githubusercontent.com/32363208/163847823-f388bf12-e3a2-4241-b23f-6842fb44f460.png)
