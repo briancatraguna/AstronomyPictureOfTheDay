@@ -2,6 +2,7 @@ package com.briancatraguna.domain.usecase
 
 import com.briancatraguna.data.entities.AstroPictureResponse
 import com.briancatraguna.data.repository.AstroPictureRepository
+import com.briancatraguna.domain.BaseInteractor
 import com.briancatraguna.domain.model.AstroPicture
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
@@ -9,9 +10,9 @@ import javax.inject.Inject
 
 class GetAstroPicture @Inject constructor(
     private val astroPictureRepository: AstroPictureRepository
-): IGetAstroPicture {
+): BaseInteractor<AstroPicture?> {
 
-    override suspend fun doWork(): Flow<AstroPicture?> {
+    override suspend operator fun invoke(): Flow<AstroPicture?> {
         return astroPictureRepository.getAstroPicture().map { it?.asDomainModel() }
     }
 
