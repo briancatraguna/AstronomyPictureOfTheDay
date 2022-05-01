@@ -45,6 +45,10 @@ dependencies {
     implementation "com.google.dagger:hilt-android:2.41"
     kapt "com.google.dagger:hilt-android-compiler:2.41"
 
+    //mvrx
+    implementation 'com.airbnb.android:mavericks:2.6.1'
+    implementation 'com.airbnb.android:mavericks-hilt:2.6.1'
+
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.0'
     implementation 'com.google.android.material:material:1.4.0'

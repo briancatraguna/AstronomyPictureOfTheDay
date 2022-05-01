@@ -6,8 +6,8 @@
     <data>
 
         <variable
-            name="vm"
-            type="com.briancatraguna.feature.pictureoftheday.PictureOfTheDayViewModel" />
+            name="state"
+            type="com.briancatraguna.feature.pictureoftheday.PictureOfTheDayViewState" />
 
     </data>
 
@@ -22,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="276dp"
             android:scaleType="centerCrop"
-            app:imageUrl="@{vm.astroPicture.hdUrl}"
+            app:imageUrl="@{state.astroPicture.hdUrl}"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -48,7 +48,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="14dp"
-                    android:text="@{vm.astroPicture.title}"
+                    android:text="@{state.astroPicture.title}"
                     android:textSize="40sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -59,7 +59,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="14dp"
-                    android:text="@{vm.astroPicture.explanation}"
+                    android:text="@{state.astroPicture.explanation}"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="@id/tv_title"
                     app:layout_constraintTop_toBottomOf="@id/tv_title"

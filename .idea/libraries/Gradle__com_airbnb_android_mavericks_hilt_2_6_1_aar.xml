@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.airbnb.android:mavericks-hilt:2.6.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a38d742307c98b16769166717094d037/transformed/jetified-mavericks-hilt-2.6.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a38d742307c98b16769166717094d037/transformed/jetified-mavericks-hilt-2.6.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a38d742307c98b16769166717094d037/transformed/jetified-mavericks-hilt-2.6.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.airbnb.android/mavericks-hilt/2.6.1/dd85728d1974609380feaa54edcac00a8ba10440/mavericks-hilt-2.6.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.airbnb.android/mavericks-hilt/2.6.1/e31a77b395f94bb15eedddcb10cbf70245626387/mavericks-hilt-2.6.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
