@@ -19,7 +19,8 @@ Tech stacks:
 - [Sandwich](https://github.com/skydoves/sandwich)
 - [Coil](https://github.com/coil-kt/coil)
 - [Data Binding](https://developer.android.com/topic/libraries/data-binding)
-- [Live Data](https://developer.android.com/topic/libraries/architecture/livedata)
+- [Mavericks](https://github.com/airbnb/mavericks)
+
 
 # Features
 
