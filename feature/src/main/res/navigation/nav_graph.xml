@@ -6,6 +6,6 @@
 
     <fragment
         android:id="@+id/pictureOfTheDayFragment"
-        android:name="com.briancatraguna.feature.PictureOfTheDayFragment"
+        android:name="com.briancatraguna.feature.pictureoftheday.PictureOfTheDayFragment"
         android:label="PictureOfTheDayFragment" />
 </navigation>

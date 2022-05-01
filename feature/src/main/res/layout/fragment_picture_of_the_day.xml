@@ -7,7 +7,7 @@
 
         <variable
             name="vm"
-            type="com.briancatraguna.feature.MainViewModel" />
+            type="com.briancatraguna.feature.pictureoftheday.PictureOfTheDayViewModel" />
 
     </data>
 

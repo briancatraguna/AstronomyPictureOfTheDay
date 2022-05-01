@@ -1,4 +1,4 @@
-package com.briancatraguna.feature
+package com.briancatraguna.feature.pictureoftheday
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -15,7 +15,7 @@ class PictureOfTheDayFragment : Fragment() {
     private var _binding: FragmentPictureOfTheDayBinding? = null
     private val binding get() = _binding!!
 
-    private val viewModel: MainViewModel by viewModels()
+    private val viewModel: PictureOfTheDayViewModel by viewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

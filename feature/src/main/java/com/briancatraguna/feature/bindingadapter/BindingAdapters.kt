@@ -1,4 +1,4 @@
-package com.briancatraguna.feature.utils
+package com.briancatraguna.feature.bindingadapter
 
 import android.widget.ImageView
 import androidx.databinding.BindingAdapter
